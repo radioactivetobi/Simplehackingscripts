@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Enter ip address: "
+
+read ip
+
+echo "Enter port Number: "
+
+read port
+
+gobuster dir -u http://$ip:$port -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+
