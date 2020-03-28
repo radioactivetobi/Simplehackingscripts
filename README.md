@@ -1,9 +1,12 @@
 # Simplehackingscripts
 This is a compilation of some scripts I've written to assist with CTFs, Pentesting e.t.c. it takes out the need to memorize syntaxes of most commonly used one-liners in Kali Linux. I'll be updating the repo and making improvements over time, Happy hacking everyone!
 # Setup
+```bash
 git clone https://github.com/radioactivetobi/Simplehackingscripts.git
 cd Simplehackinghscripts
+```
 # Sample Syntax
+```bash
 root@kali:~# ./nmapscript.sh 
 Enter Target Address: 
 10.10.10.34
@@ -55,4 +58,5 @@ Host script results:
 |_  start_date: 2020-03-28 17:27:56
 
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+```
 Nmap done: 1 IP address (1 host up) scanned in 123.58 seconds
