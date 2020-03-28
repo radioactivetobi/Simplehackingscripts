@@ -4,6 +4,7 @@ This is a compilation of some scripts I've written to assist with CTFs, Pentesti
 ```bash
 git clone https://github.com/radioactivetobi/Simplehackingscripts.git
 cd Simplehackinghscripts
+chmod +x nmapscript.sh
 ```
 # Sample Syntax
 ```bash
